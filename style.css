@@ -1,4 +1,51 @@
-#art__here{
-    display: flex;
-    flex-wrap: wrap;
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
+
+input {
+    font-size: 1em;
+    width: 90%;
+    background-color: #edeff0;
+    padding: 10px 15px;
+    border: 3px solid #d7dbdf;
+    border-right: none;
+    border-radius: 0.35em 0 0 0.35em;
+    outline: none;
+  }
+
+#input__form {
+    max-width: 460px;
+    display: flex;
+    margin: 0 auto 32px;
+  }
+
+  .searchbtn{
+    outline: none;
+    background-color: #51a2dc;
+    border: 3px solid #4072a3;
+    padding: 0px 15px;
+    border-radius: 0 0.35em 0.35em 0;
+    cursor: pointer;
+  }
+
+  #art_container{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  }
+
+.cardDiv {
+    margin: 0.2rem 0;
+}
+
+.btn-primary:hover{
+    color: #51a2dc;
+    border: #4072a3 solid 2px;
+    border-radius: 5px;
+    background:#fff;
+
+}
+

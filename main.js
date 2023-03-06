@@ -13,7 +13,7 @@ function makeCard(searchTerm) {
     const cardDiv = document.createElement("div");
     cardDiv.setAttribute("class", "cardDiv");
     // cardDiv.setAttribute("id", "fullCard");
-    art__here.appendChild(cardDiv); 
+    art_container.appendChild(cardDiv); 
     
     // const card = document.createElement("div");
     // card.setAttribute("class", "card");
@@ -33,7 +33,7 @@ function displayImgs(searchTerm) {
   
           // create a new card div for each image
           const cardDiv = createCardDiv();
-          art__here.appendChild(cardDiv);
+          art_container.appendChild(cardDiv);
   
           // add the image element to the card div
           const img = createImg(jpg__url, result.title);
